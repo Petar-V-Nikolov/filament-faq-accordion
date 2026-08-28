@@ -1,0 +1,42 @@
+{
+    "name": "pnscripts/filament-faq-accordion",
+    "description": "Filament 5 FAQ repeater field and a public accordion Blade component.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petar Nikolov",
+            "homepage": "https://pnscripts.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "filament/filament": "^5.0",
+        "illuminate/support": "^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pnscripts\\FilamentFaqAccordion\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pnscripts\\FilamentFaqAccordion\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pnscripts\\FilamentFaqAccordion\\FaqAccordionServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
