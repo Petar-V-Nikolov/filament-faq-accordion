@@ -27,7 +27,7 @@ Until the package is on Packagist, require the public GitHub repository:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/petar-v-nikolov/filament-faq-accordion"
+            "url": "https://github.com/pnscripts/filament-faq-accordion"
         }
     ]
 }
